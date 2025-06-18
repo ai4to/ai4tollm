@@ -3,15 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <title>AI4TO: AI for immigrant breast cancer care—equity, support, and empowerment</title>
+  <style>
+    body {
+      background-color: #fff0f5; /* light pink background */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    nav {
+      background-color: #f8c8dc;
+      padding: 1em 2em;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #6a0d45;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #d63384;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 2em;
+      color: #a61c4f;
+    }
+
+    textarea {
+      display: block;
+      margin: 1em auto;
+      width: 60%;
+      padding: 1em;
+      font-size: 1em;
+      border-radius: 8px;
+      border: 1px solid #d8a0b6;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      resize: vertical;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 0.6em 1.5em;
+      font-size: 1em;
+      background-color: #f48fb1;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ec407a;
+    }
+
+    pre {
+      background-color: #ffe6f0;
+      width: 60%;
+      margin: 1em auto;
+      padding: 1em;
+      border-radius: 8px;
+      border: 1px solid #f5c2d2;
+      white-space: pre-wrap;
+    }
+  </style>
 </head>
 <body>
   <!-- Navigation Bar -->
-  <nav style="background-color: #e6e6e6; padding: 1em;">
-  <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">
-    <li><a href="index.html" style="text-decoration: none; font-weight: bold; color: #333;">Home</a></li>
-    <li><a href="research.html" style="text-decoration: none; font-weight: bold; color: #333;">Research</a></li>
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+    </ul>
+  </nav>
+
   <h1>Ask AI4TO!</h1>
   <textarea id="input" rows="5" cols="50" placeholder="Type your message..."></textarea><br>
   <button onclick="askChatGPT()">Send</button>
