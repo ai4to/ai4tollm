@@ -5,32 +5,96 @@
   <title>LLM Use in Health Education and Support</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #f9f9f9;
+      background-color: #fff0f5; /* light pink */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 2em;
       color: #333;
     }
-    h1, h2 {
-      color: #2a2a2a;
+
+    nav {
+      background-color: #f8c8dc;
+      padding: 1em 2em;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: -2em -2em 2em -2em;
     }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #6a0d45;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #d63384;
+    }
+
+    h1 {
+      color: #a61c4f;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    h2, h3 {
+      color: #a04060;
+      margin-top: 1.5em;
+    }
+
     strong {
       color: #000;
     }
+
+    p {
+      background-color: #ffe6f0;
+      padding: 1em;
+      border-radius: 10px;
+      border: 1px solid #f5c2d2;
+      margin: 1em 0;
+    }
+
     .citation {
-      font-size: 0.9em;
-      color: #555;
+      font-size: 0.95em;
+      color: #5a5a5a;
+      background-color: #fce4ec;
+      padding: 1em;
+      border-radius: 8px;
+      border: 1px solid #f5c2d2;
+      margin-top: 2em;
+    }
+
+    .citation li {
+      margin-bottom: 0.5em;
+    }
+
+    a {
+      color: #c2185b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <!-- Navigation Bar -->
-  <nav style="background-color: #e6e6e6; padding: 1em;">
-  <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">
-    <li><a href="index.html" style="text-decoration: none; font-weight: bold; color: #333;">Home</a></li>
-    <li><a href="research.html" style="text-decoration: none; font-weight: bold; color: #333;">Research</a></li>
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+    </ul>
+  </nav>
 
   <h1>LLM Use in Health Education and Support</h1>
 
@@ -49,6 +113,7 @@
   <p><strong>Doro</strong> is an AI chatbot developed to serve as a <strong>“daily mental health coach.”</strong> It is deployed in <strong>university wellness centers and clinics</strong>, offering 30-minute chat sessions where users can discuss stress, self-esteem, or other concerns. Doro suggests <strong>evidence-based techniques</strong> such as journaling, mindfulness, and planning, making mental health support more <strong>accessible and affordable</strong>, especially for those exhibiting early signs of mental health conditions.</p>
 
   <h2>Citations</h2>
+
   <ol class="citation">
     <li>Topol, E. (2019). <em>Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again</em>. Basic Books.</li>
     <li>Ayers, J. W., Poliak, A., Dredze, M., Leas, E. C., Zhu, Z., Kelley, J. B., & Goodman, M. (2023). Evaluating GPT-4 and ChatGPT on health-related questions. <em>JAMA Internal Medicine</em>, 183(8), 857-865.</li>
