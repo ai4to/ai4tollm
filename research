@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LLM Use in Health Education and Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2a2a2a;
+    }
+    strong {
+      color: #000;
+    }
+    .citation {
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>LLM Use in Health Education and Support</h1>
+
+  <p><strong>Large Language Models (LLMs)</strong> are used to <strong>personalize health education</strong> by adapting complex medical information to the patient's literacy level and preferred language. For example, <strong>chatbots</strong> can educate newly diagnosed diabetes patients interactively, using health literacy techniques like the <strong>teach-back method</strong> to ensure understanding.</p>
+
+  <p>Studies evaluating <strong>LLMs like GPT-4o mini</strong> on large datasets of consumer health questions (e.g., from the <strong>AskDocs subreddit</strong>) show these models can provide <strong>high-quality, expert-aligned answers</strong> to real-world, layperson medical queries. This demonstrates LLMs' potential to serve as <strong>accessible sources of reliable health information</strong> for consumers outside clinical settings.</p>
+
+  <p><strong>LLMs</strong> have also been applied to analyze large volumes of <strong>free-text data</strong> from social media, news, and emergency calls to support <strong>public health surveillance and crisis response</strong>. For instance, during the <strong>COVID-19 pandemic</strong>, LLM-powered tools analyzed public sentiment and trends to inform messaging and interventions.</p>
+
+  <h2>Use Cases</h2>
+
+  <h3>Ask.Ellyn</h3>
+  <p><strong>AskEllyn</strong> is an AI-powered chatbot designed specifically for people navigating <strong>breast cancer</strong>, as well as their friends and family. Unlike diagnostic tools, AskEllyn offers <strong>empathetic, non-judgmental support</strong>, answers to common questions, and shares lived experiences from a breast cancer survivor. It is <strong>available in multiple languages</strong>, adapts its tone to the user (e.g., child, spouse), and is <strong>free to use</strong>.</p>
+
+  <h3>Doro: Mental Health Support Chatbot</h3>
+  <p><strong>Doro</strong> is an AI chatbot developed to serve as a <strong>“daily mental health coach.”</strong> It is deployed in <strong>university wellness centers and clinics</strong>, offering 30-minute chat sessions where users can discuss stress, self-esteem, or other concerns. Doro suggests <strong>evidence-based techniques</strong> such as journaling, mindfulness, and planning, making mental health support more <strong>accessible and affordable</strong>, especially for those exhibiting early signs of mental health conditions.</p>
+
+  <h2>Citations</h2>
+  <ol class="citation">
+    <li>Topol, E. (2019). <em>Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again</em>. Basic Books.</li>
+    <li>Ayers, J. W., Poliak, A., Dredze, M., Leas, E. C., Zhu, Z., Kelley, J. B., & Goodman, M. (2023). Evaluating GPT-4 and ChatGPT on health-related questions. <em>JAMA Internal Medicine</em>, 183(8), 857-865.</li>
+    <li>Wang, Y., Liu, S., Afzal, N., et al. (2021). A systematic review of machine learning models for predicting mental health outcomes using social media data. <em>BMC Psychiatry</em>, 21, 72.</li>
+    <li>AskEllyn. (2024). Retrieved from <a href="https://askellyn.ai" target="_blank">https://askellyn.ai</a></li>
+    <li>Mind-Easy. (2023). Doro Mental Health Chatbot. Retrieved from <a href="https://mind-easy.com/doro" target="_blank">https://mind-easy.com/doro</a></li>
+  </ol>
+
+</body>
+</html>
